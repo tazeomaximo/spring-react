@@ -25,7 +25,7 @@ heroku -v
 heroku login
 heroku git:remote -a dsmeta-darbem
 git remote -v
-git subtree push --prefix backend heroku main
+git subtree push --prefix backend heroku main #deploy heroku
 ```
 
 ### YARN
